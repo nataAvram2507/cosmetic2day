@@ -1,0 +1,290 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------------------------------------------*/
+@font-face{
+font-family: 'Vetka';
+src: url('fonts/Vetka.eot'),
+url('fonts/Vetka.woff') format('woff'),
+url('fonts/Vetka.ttf') format('truetype'),
+url('fonts/Vetka.svg#webfont') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.menu li{
+  float:left;
+  display: block;
+margin-left: 15px;
+  font-size: 55px;
+margin: 10px;
+font-family: 'Vetka';
+}
+
+.header {
+  background: url(ph.png) no-repeat;
+	background-size: cover;
+  width: 100%;
+  height: 250px;
+}
+.clear{
+  clear:both;
+}
+.menu li img{
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+	font-family: 'Vetka';
+	margin-bottom: 50px;
+}
+
+.menu{
+background-color: rgba(255,255,255,1.0);
+position:fixed;
+top:0; left:0;
+width: 100%;
+}
+
+.products ul li{
+float:left;
+display: block;
+margin-left: 15px;
+font-size: 25px;
+margin: 10px;
+background-color: yellow;
+font-family: 'Vetka';
+}
+
+
+.kinds ul li a{
+	text-decoration: none;
+}
+
+.popular{
+width: 80%;
+margin-left: 10%;
+height: auto;
+
+font-family: 'Vetka';
+}
+.colum{
+	width: 28%;
+	margin-left: 2%;
+	height: 200px;
+
+	float: left;
+	display: block;
+}
+.colum img{
+	height: 200px;
+	width: 200px;
+}
+.colum p{
+	margin-left: auto;
+	float: right;
+	font-size: 20px;
+	font-family: 'Vetka';
+}
+
+.kinds {
+	width: 100%;
+}
+
+.kinds ul li{
+	float:left;
+	display: block;
+	margin-left: 10px;
+	font-size: 25px;
+	margin: 10px;
+	font-weight: bold;
+}
+.about{
+	background: url(background.jpg) no-repeat;
+	height: 500px;
+	width: 100%;
+}
+.about p{
+	font-family: 'Calibri';
+	font-size: 23px;
+	margin:25px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+h2{
+	font-size: 65px;
+  text-align: center;
+		font-family: 'Vetka';
+}
+.lipstics{
+background-color: #FFC0CB;
+height: auto;
+
+}
+.lipstics p{
+	float:left;
+		font-size: 25px;
+		margin: 25px;
+		font-family: 'Vetka';
+		width: 40%;
+}
+
+.lipstics img{
+	margin-left: 65px;
+		float:left;
+		margin-top: 35px;
+width: 30%;
+}
+h3{
+	text-align: center;
+		font-family: 'Vetka';
+		font-size: 65px;
+}
+#contacts{
+
+	background: url(background.jpg) no-repeat;
+	height: 500px;
+	width: 2500px;
+}
+#contacts p{
+font-family: 'Vetka';
+font-size: 65px;
+}
+.mascara{
+	background-color: #C58DE8;
+	height: auto;
+
+}
+.mascara p{
+	float: left;
+		font-size: 25px;
+		margin: 25px;
+		font-family: 'Vetka';
+		width: 40%;
+}
+.mascara img{
+	margin-left: 65px;
+		float:left;
+		margin-top: 35px;
+width: 600px;
+height: 450px;
+}
+
+.concelear{
+	background-color: #7ADBE3;
+
+}
+.concelear img{
+	margin-left: 65px;
+		float:left;
+		margin-top: 35px;
+height: 30%;
+}
+.concelear p{
+	float: left;
+		font-size: 25px;
+		margin: 25px;
+		font-family: 'Vetka';
+		width: 40%;
+}
+
+.tonic{
+	background-color: #ECA156;
+
+}
+.tonic img{
+margin-left: 65px;
+margin-top: 35px;
+float:left;
+hight: 30%;
+}
+.tonic p{
+	float: left;
+	display: block;
+		font-size: 25px;
+		margin: 25px;
+		font-family: 'Vetka';
+		width: 40%;
+}
+
+.outlines{
+	background-color: pink;
+
+}
+.outlines img{
+	margin-left: 65px;
+		float:left;
+		margin-top: 35px;
+width: 30%;
+}
+.outlines p{
+	float: left;
+		font-size: 25px;
+		margin: 25px;
+		font-family: 'Vetka';
+		width: 40%;}
+		.pencil{
+			background-color: white;
+
+		}
+		.pencil img{
+			margin-left: 65px;
+				float:left;
+				margin-top: 35px;
+		width: 30%;
+		}
+		.pencil p{
+			float: left;
+				font-size: 25px;
+				margin: 25px;
+				font-family: 'Vetka';
+				width: 40%;}
+				h4 {
+				  text-align: center;
+				  font-size: 50px;
+					font-family: 'Vetka';
+					margin-bottom: 50px;
+				}
